@@ -184,10 +184,13 @@ public class UIManager : MonoBehaviour
     }
     IEnumerator CalculateScore()
     {
+        if (events.CurrentFinalScore == 0){ uIElements.ResolutionScoreText.text = 0.ToString(); yield break;}
+        
         var scoreValue = 0;
-        while(scoreValue < events.CurrentFinalScore)
+        bool scoreMoreThan0 = events.CurrentFinalScore > 0;
+        while((scoreMoreThan0) ? scoreValue < events.CurrentFinalScore :scoreValue >events.CurrentFinalScore)
         {
-            scoreValue++;
+            scoreValue+= scoreMoreThan0? 1:-1;
             uIElements.ResolutionScoreText.text = scoreValue.ToString();
 
             yield return null;

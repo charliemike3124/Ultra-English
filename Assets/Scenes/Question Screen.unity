@@ -877,7 +877,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 250, y: 77}
-  m_SizeDelta: {x: 68.8, y: 68.8}
+  m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508210542
 MonoBehaviour:
@@ -1059,9 +1059,9 @@ MonoBehaviour:
     resScreenAnimator: {fileID: 1113766092}
   parameters:
     margins: 15
-    correctBGColor: {r: 0, g: 0.990566, b: 0.42109632, a: 0}
-    incorrectBGColor: {r: 0.8867924, g: 0.20496619, b: 0.20496619, a: 0}
-    finalBGColor: {r: 1, g: 1, b: 1, a: 0}
+    correctBGColor: {r: 0, g: 0.990566, b: 0.42109632, a: 1}
+    incorrectBGColor: {r: 0.8867924, g: 0.20496619, b: 0.20496619, a: 1}
+    finalBGColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &721617233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2087,7 +2087,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113766087}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
