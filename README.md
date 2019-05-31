@@ -11,9 +11,9 @@
 
 # How to run this project:
  1. Download Unity hub from the following link: https://unity3d.com/get-unity/download.
- 2. Once downloaded and installed, open Unity Hub and open the "Installs" tab.
- 3. Hit the "Add" button and choose to download the Unity version "Unity 2019.1.4f1".
- 4. Go to the projects tab and click "Add".
+ 2. Once downloaded and installed, go to the following link: https://unity3d.com/es/get-unity/download/archive?_ga=2.5741236.603878435.1559344250-2030398107.1557976015.
+ 3. Scroll down and click the tab Unity 2019.x, then download the version 2019.1.0. This version will start downloading in the Unity Hub window.
+ 4. Once downloaded, go to the projects tab in Unity Hub and click "Add".
  5. Navigate to the folder where you downloaded the project and select it.
  6. Once added, open the project and wait for Unity to load. You can now play the game by hitting the Play button. 
     in the center-top part of the Unity window.
