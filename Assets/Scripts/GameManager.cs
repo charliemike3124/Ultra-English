@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     #region Variables
+    
+
     private Data data = new Data();
 
     [SerializeField] GameEvents events = null;
@@ -266,17 +268,9 @@ public class GameManager : MonoBehaviour
     }
 
 
-
-    // BUTTON FUNCTIONS
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
-
     
+    
+
+
+
 }

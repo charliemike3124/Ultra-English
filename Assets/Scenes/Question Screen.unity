@@ -1024,6 +1024,7 @@ GameObject:
   - component: {fileID: 721617234}
   - component: {fileID: 721617233}
   - component: {fileID: 721617232}
+  - component: {fileID: 721617235}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1093,6 +1094,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &721617235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721617231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7e2f765dd7b8f4bb2bd3c118722330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &844571233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,7 +1843,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721617233}
+      - m_Target: {fileID: 721617235}
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -2229,8 +2242,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 721617233}
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 721617235}
+        m_MethodName: RestartScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2961,6 +2974,7 @@ GameObject:
   - component: {fileID: 2043025881}
   - component: {fileID: 2043025880}
   - component: {fileID: 2043025885}
+  - component: {fileID: 2043025884}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -3049,6 +3063,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!222 &2043025884
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043025879}
+  m_CullTransparentMesh: 0
 --- !u!225 &2043025885
 CanvasGroup:
   m_ObjectHideFlags: 0
